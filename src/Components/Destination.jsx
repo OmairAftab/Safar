@@ -20,7 +20,7 @@ const Destination = () => {
 
     {/* 2ND COMPONENT */}
     <DestinationData className="first-des-rev" heading="Babusar Top" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iure, tenetur dignissimos accusantium odit aperiam consequuntur soluta eos ipsum dolorem numquam placeat accusamus illo deleniti perspiciatis fuga quibusdam neque doloremque quam. Reiciendis ea explicabo, sint illum, maxime eius fugiat vitae, dolorem perspiciatis rem earum. Quidem optio quibusdam tempora ad sunt eveniet voluptatem nostrum vel, soluta mollitia facilis alias facere non reprehenderit hic blanditiis labore dignissimos iste placeat, repudiandae similique earum! Minus cupiditate quis voluptate quibusdam! Nulla labore illo facilis in?"
-    img1="https://nust.edu.pk/wp-content/uploads/2023/04/babusar.jpg"
+    img1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlQBWGbtOyCNC4o519yNJg9ix-dTIVwiHTg&s"
     img2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTlRyKgJUEle6E2V0RMaNUgXAhowtGSe0SVQ&s"
     />
 
