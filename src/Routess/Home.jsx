@@ -10,7 +10,7 @@ function Home(){
         <>
        
          <Navbar />
-         <Hero cName="hero" title="Your Journey Your Story" text="Choose your Favourite Destination" heroImg="https://getwallpapers.com/wallpaper/full/5/4/d/151063.jpg" buttonText="Travel Plan" url="/" btnClass="show"/>
+         <Hero cName="hero" title="Your Journey Your Story" text="Choose your Favourite Destination" heroImg="https://getwallpapers.com/wallpaper/full/5/4/d/151063.jpg" buttonText="Travel Plan" url="/service" btnClass="show"/>
         <Destination />
 
         <Trip />
