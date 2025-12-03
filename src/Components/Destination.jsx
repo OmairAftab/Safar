@@ -1,6 +1,11 @@
 import React from 'react'
 import "./DestinationStyles.css"
 import DestinationData from './DestinationData'
+import img1 from "../assets/img1.jpg"
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
+import img4 from "../assets/img4.jpg"
+
 
 const Destination = () => {
   return (
@@ -12,16 +17,16 @@ const Destination = () => {
 
     {/* 1ST COMPONENT */}
     <DestinationData className="first-des" heading="Peer Chanasi" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iure, tenetur dignissimos accusantium odit aperiam consequuntur soluta eos ipsum dolorem numquam placeat accusamus illo deleniti perspiciatis fuga quibusdam neque doloremque quam. Reiciendis ea explicabo, sint illum, maxime eius fugiat vitae, dolorem perspiciatis rem earum. Quidem optio quibusdam tempora ad sunt eveniet voluptatem nostrum vel, soluta mollitia facilis alias facere non reprehenderit hic blanditiis labore dignissimos iste placeat, repudiandae similique earum! Minus cupiditate quis voluptate quibusdam! Nulla labore illo facilis in?"
-    img1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjUxD-9xWuhppnrtkAxeWr_VGnTC-qIMiAg&s"
-    img2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYJGio27A1uat9DndA8c91CU4W9XVNGgMXVQ&s"
+    img1={img1}
+    img2={img2}
     />
 
 
 
     {/* 2ND COMPONENT */}
     <DestinationData className="first-des-rev" heading="Babusar Top" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iure, tenetur dignissimos accusantium odit aperiam consequuntur soluta eos ipsum dolorem numquam placeat accusamus illo deleniti perspiciatis fuga quibusdam neque doloremque quam. Reiciendis ea explicabo, sint illum, maxime eius fugiat vitae, dolorem perspiciatis rem earum. Quidem optio quibusdam tempora ad sunt eveniet voluptatem nostrum vel, soluta mollitia facilis alias facere non reprehenderit hic blanditiis labore dignissimos iste placeat, repudiandae similique earum! Minus cupiditate quis voluptate quibusdam! Nulla labore illo facilis in?"
-    img1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlQBWGbtOyCNC4o519yNJg9ix-dTIVwiHTg&s"
-    img2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTlRyKgJUEle6E2V0RMaNUgXAhowtGSe0SVQ&s"
+    img1={img3}
+    img2={img4}
     />
 
 
