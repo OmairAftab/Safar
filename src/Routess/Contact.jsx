@@ -2,13 +2,13 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero"
 import Footer from "../Components/Footer";
 import ContactUs from "../Components/ContactUs";
+import contactpic from "../assets/contactpic.jpg"
 function Contact(){
-    let bg="https://static.vecteezy.com/system/resources/thumbnails/038/519/246/small/dark-black-and-gray-blurred-gradient-background-has-a-little-abstract-light-photo.jpg";
     return(
         <>
        
          <Navbar />
-         <Hero cName="about" title="Contact" heroImg={bg} btnClass="hidebtn"/>
+         <Hero cName="about" title="Contact" heroImg={contactpic} btnClass="hidebtn"/>
         <ContactUs />
         <Footer />
         </>

@@ -2,14 +2,14 @@ import Navbar from "../Components/Navbar"
 import Hero from "../Components/Hero"
 import Footer from "../Components/Footer";
 import Trip from "../Components/Trip";
+import servicepic from "../assets/servicepic.avif"
 
 function Service(){
-    let bg="https://img.freepik.com/premium-photo/top-view-travel-outfit-accessories-equipment-with-copy-space-black-background_146508-642.jpg";
     return(
         <>
        
          <Navbar />
-         <Hero cName="about" title="Services" heroImg={bg} btnClass="hidebtn"/>
+         <Hero cName="about" title="Services" heroImg={servicepic} btnClass="hidebtn"/>
          <Trip />
         <Footer />
         </>
